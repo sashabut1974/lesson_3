@@ -1,0 +1,153 @@
+@font-face{
+    font-family:"CircularStd" ;
+    src: url("../fonts/CircularStd-Book.woff2")format(woff2),
+         url("../fonts/CircularStd-Book.woff")format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"CircularStd" ;
+    src: url("../fonts/CircularStd-Medium.woff2")format(woff2),
+         url("../fonts/CircularStd-Medium.woff")format(woff);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"CircularStd" ;
+    src: url("../fonts/CircularStd-Bold.woff2")format(woff2),
+         url("../fonts/CircularStd-Bold.woff")format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"CircularStd" ;
+    src: url("../fonts/CircularStd-Black.woff2")format(woff2),
+         url("../fonts/CircularStd-Black.woff")format(woff);
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;     
+}
+     
+@font-face{
+    font-family:"Larsseit" ;
+    src: url("../fonts/Larsseit-Thin.woff2")format(woff2),
+         url("../fonts/Larsseit-Thin.woff")format(woff);
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"Larsseit" ;
+    src: url("../fonts/Larsseit-Regular.woff2")format(woff2),
+         url("../fonts/Larsseit-Regular.woff")format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"Larsseit" ;
+    src: url("../fonts/Larsseit-Medium.woff2")format(woff2),
+         url("../fonts/Larsseit-Medium.woff")format(woff);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;     
+}
+
+@font-face{
+    font-family:"Larsseit" ;
+    src: url("../fonts/Larsseit-Bold.woff2")format(woff2),
+         url("../fonts/Larsseit-Bold.woff")format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"Latino" ;
+    src: url("../fonts/a_LatinoSh.woff2")format(woff2),
+         url("../fonts/a_LatinoSh.woff")format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"Latin" ;
+    src: url("../fonts/Latin.woff2")format(woff2),
+         url("../fonts/Latin.woff")format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;     
+}
+@font-face{
+    font-family:"Lasco" ;
+    src: url("../fonts/Lasco.woff2")format(woff2),
+         url("../fonts/Lasco.woff")format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;     
+}
+
+.start p{
+    font-family:"Larsseit";
+    font-weight: 400;
+  
+}
+.start~p{
+    font-family:"Larsseit";
+    font-weight: 500; 
+}
+ul,ol{
+font-family:"Larsseit";
+    font-weight: 200;
+}
+h2{
+    font-family:"Larsseit";
+    font-weight: 700; 
+}
+h1{
+    font-family:"Latin";
+    font-weight: 400;  
+}
+h2,ul,ol{
+    font-family:"Lasco";
+    font-weight: 700;   
+}
+.end{
+    font-family:"Larsseit";
+    font-weight: 200;    
+}
+.start span,{
+    font-family:"Lasco";
+    font-weight: 700   
+}
+mark,a{
+    font-family:"Latino";
+    font-weight: 400   
+}
+.legal span{
+    font-family:"Latino";
+    font-weight: 400 
+}
+a,span{
+    color: blue;
+}
+h1{
+    color: red;
+}
+.start.text{
+    color: green;
+}
+div{
+    color: brown;
+}
+.end~p{
+    color: coral;
+}
+.start.text+p, mark{
+    color: blueviolet;
+}
+h2,ul,ol{
+    color: chocolate;
+}
